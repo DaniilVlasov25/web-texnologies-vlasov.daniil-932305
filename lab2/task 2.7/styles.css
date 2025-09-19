@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	color: white;
+}
+
+.static-block {
+	position: static;
+	background-color: blueviolet;
+	width: 170px;
+	height: 90px;
+}
+
+.relative-block {
+	position: relative;
+	width: 170px;
+	height: 90px;
+}
+
+.absolute-block {
+	position: absolute;
+	background-color: indigo;
+	width: 300px;
+	height: 150px;
+	top: 250px;
+	right: 0;
+}
+
+.fixed-block {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	right: 0;
+	bottom: 0;
+}
+
+.red {
+	background-color: darkred;
+}
+
+.orange {
+	background-color: peru;
+	bottom: 20px;
+	left: 50px;
+}
+
+.pink {
+	background-color: indianred;
+	width: 700px;
+	height: 500px;
+}
